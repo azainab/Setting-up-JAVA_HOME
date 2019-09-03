@@ -1,0 +1,10 @@
+'touch ~/.bash_profile; '
+
+'open ~/.bash_profile'
+
+'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
+
+save and close the terminal
+
+open a new terminal and type 'java -version'
+
