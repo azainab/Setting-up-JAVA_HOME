@@ -17,3 +17,5 @@ open a new terminal and type 'java -version'
 #### windows
 
 echo %JAVA_HOME%
+
+java -version and java_home might be different versions make sure they are the same version
