@@ -24,3 +24,7 @@ path variable as %JAVA_HOME%\bin
 make sure there is not path assigned as C:\Program Files (x86)\Common Files\Oracle\Java\javapath
 
 java -version and java_home might be different versions make sure they are the same version
+
+
+## java heap size
+java -XX:+PrintFlagsFinal -version | grep -iE 'heapsize|permsize|threadstacksize'
